@@ -35,7 +35,6 @@ public class Course {
     public int getCode() {
         return code;
     }
-    
     public static void main (String[] args) {
         Course course1 = new Course(1138, "John", 42);
         System.out.println("ID: " + course1.getID());
